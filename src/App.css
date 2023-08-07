@@ -1,0 +1,98 @@
+
+/* Desktop View */
+
+.app{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(74, 107, 255);
+  
+}
+.header{
+  background: rgb(1, 1, 66);
+  color: white;
+  padding: 10px;
+}
+.container{
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.add{
+  width: 90%;
+  margin: 2px auto;
+  padding: 30px;
+}
+.add .add-todo{
+  width: 40%;
+  margin: 1px auto;
+}
+.add-btn{
+  margin-top: 30px;
+}
+.add-btn,.remove-btn{
+  width: 100%;
+}
+.display{
+  width: 100%;
+  margin: 30px auto;
+  padding: 10px;
+}
+.display-todo{
+  margin: 10px;
+  padding: 10px;
+  width: 22%;
+}
+.add-icon{
+
+  font-size: 25px;
+}
+.remove-icon{
+
+  font-size: 30px;
+}
+/* Mobile View */
+@media only screen and (max-width: 760px) {
+  .app {
+    background-color: rgba(145, 158, 255, 0.851);
+    width: 100%;
+    padding: 2px;
+    color: rgb(0, 0, 0);
+  }
+  .container{
+    margin: 2px;
+    padding: 10px;
+  }
+  .add{
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 10px 0 10px;
+  
+  }
+  .add .add-todo{
+    width: 100%;
+  }
+  
+  .display-todo{
+    
+    margin:20px auto ;
+    width: 100%;
+  }
+  .add-btn{
+    width: 100%;
+  }
+  .remove-btn{
+    width: 18%;
+    margin: 5px auto;
+    
+  }
+  .add-icon{
+
+    font-size: 25px;
+  }
+  .remove-icon{
+
+    font-size: 30px;
+  }
+}
